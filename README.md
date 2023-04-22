@@ -8,7 +8,7 @@ The project was created on 04/22/2023.
 program to Bikeshare analyzing
 
 ### Description
-The program can be used to Displays statistics on the most frequent times of travel or to Displays statistics on the total and average trip duration.
+The program can be used to display statistics on the most frequent times of travel or to display statistics on the total and average trip duration.
 
 ### Files used
 chicago.csv

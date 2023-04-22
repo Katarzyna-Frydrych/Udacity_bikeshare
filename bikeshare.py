@@ -173,7 +173,7 @@ def ask_more_data(df):
     while more_data == 'yes':
         print(df.iloc[start_loc:start_loc + 5])
         start_loc += 5
-        more_data = input("Would you like to view 5 rows of data? Enter yes or no? ").lower()
+        more_data = input("Would You like to view 5 rows of data? Enter yes or no? ").lower()
         
     return df
 
@@ -188,7 +188,7 @@ def main():
         user_stats(df)
         ask_more_data(df)
         
-        restart = input('\nWould you like to restart the program? Enter yes or  no.\n')
+        restart = input('\nWould you like to try again? Enter yes or  no.\n')
         if restart.lower() != 'yes':
             break
 
